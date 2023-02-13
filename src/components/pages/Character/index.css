@@ -1,0 +1,51 @@
+img {
+  width: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 8px;
+}
+
+.page {
+  height: 200vh;
+}
+button {
+  background: #2c3333;
+  color: #ecdbba;
+  border: none;
+  position: relative;
+  left: 540px;
+  margin-top: 30px;
+  height: 60px;
+  font-size: 30px;
+
+  cursor: pointer;
+  transition: 800ms ease all;
+  outline: none;
+}
+button:hover {
+  background: #f7e2e2;
+  color: #30475e;
+}
+button:before,
+button:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 2px;
+  width: 0;
+  background: #4c3a51;
+  transition: 400ms ease all;
+}
+button:after {
+  right: inherit;
+  top: inherit;
+  left: 0;
+  bottom: 0;
+}
+button:hover:before,
+button:hover:after {
+  width: 100%;
+  transition: 800ms ease all;
+}
