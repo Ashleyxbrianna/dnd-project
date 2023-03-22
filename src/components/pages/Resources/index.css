@@ -1,4 +1,56 @@
-.linkone {
+.card-deck {
+  display: flex;
+}
+
+.card-img-top {
+  width: 30%;
+}
+
+.card-title {
+  margin-left: 160px;
+  color: #d0c9c0;
+}
+
+.card-title-three {
+  margin-left: 190px;
+}
+
+.card-body {
+  width: 20px;
+
+  text-align: center;
+}
+
+.card-text {
+  width: 200px;
+  margin-left: 80px;
+  margin-top: -20px;
+  text-align: left;
+}
+
+.card-text-three {
+  width: 200px;
+  margin-left: 130px;
+  margin-top: -30px;
+  text-align: left;
+}
+
+.btn-primary {
+  background-color: #5f7161;
   color: blanchedalmond;
-  margin-left: 110px;
+  text-decoration: none;
+  border-radius: 10px;
+  padding: 20px;
+  font-size: 30px;
+  margin-right: 260px;
+}
+
+.btn-primary-three {
+  background-color: #5f7161;
+  color: blanchedalmond;
+  text-decoration: none;
+  border-radius: 10px;
+  padding: 20px;
+  font-size: 30px;
+  margin-right: 200px;
 }
