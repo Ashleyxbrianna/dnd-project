@@ -20,7 +20,7 @@ const Navbar = () => {
             <Link to="/character">Character Sheet</Link>
           </li>
           <li>
-            <Link to="/dice">Roll Dice</Link>
+            <Link to="/resources">Resources</Link>
           </li>
         </ul>
       </div>

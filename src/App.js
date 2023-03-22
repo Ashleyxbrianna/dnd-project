@@ -4,7 +4,8 @@ import Navbar from "./components/Navbar";
 import Home from "./components/pages/Home";
 import Beginner from "./components/pages/Beginner";
 import Character from "./components/pages/Character";
-import Dice from "./components/pages/Dice";
+
+import Resources from "./components/pages/Resources";
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/beginner" element={<Beginner />} />
           <Route path="/character" element={<Character />} />
-          <Route path="/dice" element={<Dice />} />
+          <Route path="/resources" element={<Resources />} />
         </Routes>
       </BrowserRouter>
     </div>

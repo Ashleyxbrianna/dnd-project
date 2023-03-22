@@ -1,4 +1,13 @@
 .page {
-    background-color: #212121;
-    height: 100vh;
+  background-color: #212121;
+  height: 100vh;
+}
+
+p {
+  color: blanchedalmond;
+  text-align: center;
+  margin: auto;
+  width: 640px;
+  padding: 50px;
+  font-size: 20px;
 }
