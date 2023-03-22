@@ -39,7 +39,7 @@ const Resources = () => {
             </p>
             <p className="button">
               <a
-                href="https://www.dndbeyond.com/characters"
+                href="https://critrole.com/"
                 className="btn btn-primary btn-lg"
               >
                 Enter Traveller
@@ -57,7 +57,7 @@ const Resources = () => {
             </p>
             <p className="button">
               <a
-                href="https://www.dndbeyond.com/characters"
+                href="https://mistymountaingaming.com/collections"
                 className="btn btn-primary-three btn-lg"
               >
                 Enter Traveller
