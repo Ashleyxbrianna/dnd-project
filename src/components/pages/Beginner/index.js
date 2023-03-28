@@ -4,10 +4,10 @@ import "./index.css";
 const Beginner = () => {
   return (
     <div className="page">
-      <h1>DUNGEONS & DRAGONS</h1>
+      <h1>Beginner Guide /></h1>
 
       <p>
-        start small. You can argue that the Essentials Kit and Starter Set are
+        Start small. You can argue that the Essentials Kit and Starter Set are
         all you need to get going - which isn’t wrong. Those are great tools if
         you want to try it out. However, if you want to give the game a real
         shot, all you need for a literal lifetime of adventure is: the Player’s
